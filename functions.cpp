@@ -41,7 +41,7 @@ int main(){
 
 
 // ncr 
-int fact(int n){
+/*int fact(int n){
     int fact=1;
     for (int i=1;i<=n;i++){
         fact=fact*i;
@@ -58,4 +58,20 @@ int main(){
     int n,r;
     cin>>n>>r;
     cout<<"ans is "<<ncr(n,r)<<endl;
+}*/
+
+
+// counting numbers
+void printCounting(int n){
+
+    for (int i=1;i<=n;i++){
+        cout<<i<<" ";
+    }
+    cout<<endl;
+}
+int main(){
+    int n;
+    cin>>n;
+    printCounting(n);
+    return 0;
 }
